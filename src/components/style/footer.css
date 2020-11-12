@@ -1,12 +1,17 @@
 .Footer{
+    padding: 10px 20px;
     width: 100%;
     height: 200px;
     background-color: black;
 }
 .logo{
+    margin: 0;
     width: 30%;
-    display: inline-block;
     color: blanchedalmond;
+}
+.logo h3{
+    margin: 0;
+    display: inline-block;
 }
 .Quicklinks{
     width: 30%;
@@ -15,9 +20,16 @@
 .Quicklinks a{
     text-decoration: none;
     color: white;
-    display: block;
     margin: 5px 0px;
+    display: block;
 }
 .SocialMedia{
     width: 30%;
+    display: inline-block;
+}
+.SocialMedia a{   
+    text-decoration: none;
+    color: white;
+    margin: 5px 0px;
+    display: block;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import './style/footer.css';
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <div className='Footer'>
             <div className='logo'>
                 <h3>My Movies Theater</h3>
@@ -14,7 +14,9 @@ function Footer(){
                 <a href='/upcoming'>Upcoming Movies</a>
             </div>
             <div className='SocialMedia'>
-
+                <a href='/'>Facebook</a>
+                <a href='/movies'>Instgram</a>
+                <a href='/toprated'>Twitter</a>
             </div>
         </div>
     )
