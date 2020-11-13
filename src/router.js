@@ -1,8 +1,8 @@
 import React from 'react';
 import Home from './App';
-import UpcomingMovies from './upcoming';
-import TopRated from './toprated';
-import MyMovies from './mymovies';
+import TopRated from './pages/top-rated';
+import MyMovies from './pages/mymovies';
+import Upcoming from './pages/upcoming';
 import {
     BrowserRouter as Router,
     Switch,
@@ -15,9 +15,9 @@ import {
         < Router>
           <Switch>
             <Route exact path='/' component={Home}></Route>
-            <Route path='/upcoming' component={UpcomingMovies}></Route>
             <Route path='/top-rated' component={TopRated}></Route>
             <Route path='/my-movies' component={MyMovies}></Route>
+            <Route path='/upcoming' component={Upcoming}></Route>
           </Switch>
         </Router>
       </div>
