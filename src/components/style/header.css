@@ -1,23 +1,30 @@
 .header{
-    padding: 30px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     text-align: center;
-    background-color: aqua;
 }
-.logo{
-    margin: 10px 20px;
+.mainHeader{
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid gray;
+    width: 90%;
+    text-align: center;
+    margin: auto auto;
+    padding: 10px 0;
+}
+.headerlogo{
+    width: 40%;
     display: inline-block;
     text-align: left;
+    margin: auto auto;
 }
-.logo h3{
-    margin: 0;
-}
-.link{
-    margin: 10px 100px;
+.headerlink{
+    margin: auto auto;
     text-align: right;
     display: inline-block;
 }
-.link a{
+.headerlink a{
+    margin: 0px 10px;
     text-decoration: none;
-    margin: auto 10px;
 }

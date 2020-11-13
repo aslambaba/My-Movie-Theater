@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Routes from './router';
 import reportWebVitals from './reportWebVitals';
 import {makeServer} from './server';
+import './index.css'
 
 makeServer();
 ReactDOM.render(

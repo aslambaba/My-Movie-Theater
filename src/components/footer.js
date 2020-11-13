@@ -4,20 +4,39 @@ import './style/footer.css';
 function Footer() {
     return (
         <div className='Footer'>
-            <div className='logo'>
-                <h3>My Movies Theater</h3>
-            </div>
-            <div className='Quicklinks'>
-                <a href='/'>Home</a>
-                <a href='/movies'>My Movies</a>
-                <a href='/toprated'>Top Rated</a>
-                <a href='/upcoming'>Upcoming Movies</a>
-            </div>
-            <div className='SocialMedia'>
-                <a href='/'>Facebook</a>
-                <a href='/movies'>Instgram</a>
-                <a href='/toprated'>Twitter</a>
-            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <td><h3>My Movie Theater</h3></td>
+                        <td><strong>Quick Links</strong></td>
+                        <td><strong>Social Media</strong></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>Home</td>
+                        <td>Facebook</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>My Movies</td>
+                        <td>Instagram</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Top Rated</td>
+                        <td>Twitter</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>UpComming</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
         </div>
     )
 }

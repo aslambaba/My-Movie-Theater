@@ -1,15 +1,18 @@
 .MainBody{
-    padding: 0px 30px;
     text-align: center;
+}
+.upcoming{
+    display: inline-block;
 }
 .section{
     margin: 10px 10px;
     display: inline-block;
-    width: 230px;
     border: 1px solid black;
-    height: 300px;
+    padding: 10px 10px;
+    border-radius: 4px;
 }
 .section img{
     width: 200px;
     height: 230px;
+    border-radius: 3px;
 }
