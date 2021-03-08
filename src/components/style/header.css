@@ -5,19 +5,20 @@
     text-align: center;
 }
 .mainHeader{
-    background-color: white;
-    border-radius: 30px;
-    border: 1px solid gray;
+    background-color: rgba(20, 20, 20, 0.973);
+    border-radius: 20px;
     width: 90%;
     text-align: center;
     margin: auto auto;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .headerlogo{
+    color: white;
     width: 40%;
     display: inline-block;
     text-align: left;
     margin: auto auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .headerlink{
     margin: auto auto;
@@ -27,4 +28,6 @@
 .headerlink a{
     margin: 0px 10px;
     text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

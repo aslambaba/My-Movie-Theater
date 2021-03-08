@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './style/moviesec.css';
+import EndGameImage from './images/endgame.jpg';
+
+
 function Moviesec() {
 
     const [upcomingm, setupcomingm] = useState([]);
@@ -23,7 +26,7 @@ function Moviesec() {
                 <div className='upcoming' key={item}>
                     <div className='section'>
                         <h4>{upcomingm[item].name}</h4>
-                        <img></img>
+                        <img src={EndGameImage}></img>
                     </div>
                 </div>
             ))}
